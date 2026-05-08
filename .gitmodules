@@ -1,0 +1,3 @@
+[submodule "ethernal/ArtnetListener"]
+	path = ethernal/ArtnetListener
+	url = https://github.com/craigt2005/ArtnetListener.git
