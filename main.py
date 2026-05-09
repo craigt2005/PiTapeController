@@ -6,7 +6,7 @@ import time
 
 
 def packet_handler(packet):
-    if packet["universe"] == 3:
+    if packet["universe"] == 2: # artnet universes are 0 based
         for i in range(0,14):
             np[i] = (packet["channels"][i*3+offset],packet["channels"][i*3+1+offset],packet["channels"][i*3+2+offset])
     
